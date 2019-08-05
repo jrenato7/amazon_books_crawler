@@ -10,5 +10,7 @@ import scrapy
 
 class AmazonBooksItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    book_title = scrapy.Field()
+    book_author = scrapy.Field()
+    book_price = scrapy.Field()
+    book_image = scrapy.Field()
