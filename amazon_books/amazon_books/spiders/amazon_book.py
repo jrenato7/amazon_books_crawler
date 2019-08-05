@@ -20,3 +20,5 @@ class AmazonBookSpider(scrapy.Spider):
         items['book_author'] = author
         items['book_price'] = price
         items['book_image'] = image
+
+        yield items
